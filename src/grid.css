@@ -1,0 +1,22 @@
+.grid {
+    display: flex;
+    background-color: #fff;
+    flex-direction: row;
+    gap: .1em;
+    border-top: none;
+}
+
+.cell {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+    border: 0.1em solid rgb(60, 60, 60);
+    margin: .2em
+}
